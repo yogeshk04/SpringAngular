@@ -5,8 +5,6 @@ import com.io.SpringAngular.Service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.io.SpringAngular.DTO.CustomerDTO;
-
 @RestController
 @CrossOrigin
 @RequestMapping("api/v1/customer")

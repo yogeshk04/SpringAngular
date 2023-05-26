@@ -1,7 +1,7 @@
 package com.io.SpringAngular.Entity;
 
 import jakarta.persistence.*;
-
+@Entity
 @Table(name = "customer")
 public class Customer {
 
@@ -17,7 +17,7 @@ public class Customer {
     @Column(name = "mobile", length = 12)
     private int mobile;
 
-    public Customer(int customerId, String customerName, String customerAddress, int mobile) {
+    public Customer(String customerName, String customerAddress, int mobile) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.customerAddress = customerAddress;
